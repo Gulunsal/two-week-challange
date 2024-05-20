@@ -1,0 +1,141 @@
+/* Genel stiller */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:#333;
+    background: #f1f1f1;
+}
+
+nav {
+    padding: 20px;
+    background-color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+nav:not(:first-of-type) {
+    margin-top: 200px;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+nav button {
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 0 5px;
+    border: none;
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+}
+
+nav img {
+    width: 50px;
+}
+
+.media-icons:not(.media-icons:last-of-type) {
+    margin-right: 20px;
+}
+
+/* Nav #1 */
+/* Center the Navlinks on X (horizontally) */
+.nav-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Boşluk eklemek için */
+}
+
+/* Nav #2 */
+/* Center on Y and display the buttons on the right */
+.nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+
+.nav-2 a {
+    margin-right: 20px;
+}
+
+.nav-2 .sign-in-btn,
+.nav-2 .sign-up-btn {
+    
+    margin-left: 10px;
+    
+}
+.nav-2-button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+/* Nav #3 */
+/* Center on Y then put the icon on the left and the links on the right */
+.nav-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-3 img{
+    margin-right: auto;
+}
+.nav-3-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Nav #4 */
+/* Center on Y then put the Saturn icon in the middle and the links on the left */
+.nav-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-4 .links-container {
+    display: flex;
+    gap: 20px;
+    /* Boşluk eklemek için */
+}
+
+.nav-4 .logo-link {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Nav #5 */
+/* Center the elements on Y */
+/* Center the text on X */
+/* Display the cat's paw on the left */
+/* Display the three icons on the right */
+.nav-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-5 .logo-link {
+    margin-right: auto;
+}
+
+.nav-5 .container-navlinks {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+    /* Boşluk eklemek için */
+}
+
+.nav-5 .nav-right {
+    display: flex;
+    gap: 10px;
+}
